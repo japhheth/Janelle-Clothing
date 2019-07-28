@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Category</title>
+        <base href="<?php echo config::base(); ?>">
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.css">
+        <link rel="stylesheet" href="assets/css/bootstrap.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/responsive.css">
+    
+        <link href="https://fonts.googleapis.com/css?family=Krona+One|Prata" rel="stylesheet">
+        <link rel="shortcut icon" href="assets/images/favicon.png" />
+
+    </head>
+    
+    <body>
+    
+    <header class="container-fluid">
+        <nav class="navbar navbar-expand-md navbar-light desktop-nav">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="row" style="width: 100%;">
+                    <div class="col-sm">
+                        <form class="form-inline my-2 my-lg-0">
+                            <input class="form-control mr-sm-2 search" type="text" placeholder="Search" aria-label="Search">
+                            <span class="search-btn"></span>
+                        </form>
+                    </div>
+                    <div class="col-sm logo" style="text-align: center">
+                        <a href="/"><img src="assets/images/logo.svg" alt=""></a>
+                    </div>
+                    <div class="col-sm" style="padding-right: 0px;">
+    
+                        <ul class="navbar-nav mr-auto float-right">
+                            <li class="nav-item">
+                                <a class="nav-link primary" href="#">PROFILE</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link secondary" href="#" style="padding-right: 0px;">MY CART</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <nav class="navbar navbar-expand-lg navbar-light" style="padding-top: 15px;">
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav secondary-menu" style="margin: 0 auto;">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="shop">SHOP <div class="active-on"></div></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">CLOTHING</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">ACCESSORIES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">KIDS SPECIAL</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="lookbook">LOOKBOOK</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- Mobile screen header -->
+        <nav class="navbar mobile-header">
+            <div class="toggle-div">
+                <img src="/assets/images/e922.svg" alt="toggle">
+            </div>
+            <div class="logo-div">
+                <img src="/assets/images/logo.svg" alt="logo">
+            </div>
+            <div class="cart-div">
+                <img src="/assets/images/eb6f.jpg" alt="cart">
+            </div>
+        </nav>
+        <form class="form-inline my-2 my-lg-0 search-bar">
+            <input class="form-control mr-sm-2 search" type="text" placeholder="Search" aria-label="Search">
+            <span class="arrow-span"><img class="right-arrow" src="/assets/images/arror.svg" alt="arrow"></span>
+        </form>
+    </header>
+    <div class="banner">
+        <div class="no-padding container-fluid">
+            <div class="banner" style="background-image: url('assets/images/banners/shop2.jpg'); background-size: cover; background-repeat:
+            no-repeat;">
+            <h1 class="clothing_banner">Clothing</h1>
+        </div>
+    </div>
+    <div class="shop container-fluid" style="padding-bottom: 100px;">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="home">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Clothing</li>
+            </ol>
+        </nav>
+    
+        <div class="row">
+            <div class="col-md-3" style="border-right: 1px solid #E5E5E5; padding-bottom: 50px;">
+                <p>
+                    <a data-toggle="collapse" href="#collapseExample" style="display: block;" role="button"
+                        aria-expanded="false" aria-controls="collapseExample">
+                        WOMEN’S CLOTHING <i class="fa fa-chevron-down float-right"></i>
+                    </a>
+                </p>
+                <div class="collapse show" id="collapseExample">
+                    <ul>
+                        <li class="no-dots">
+                            <a href="" >All Items</a>
+                        </li>
+                        <li class="no-dots">
+                             <a href="">Tops</a>
+                        </li>
+                        <li class="no-dots">
+                             <a href="">Dresses</a>
+                        </li>
+                        <li class="no-dots">
+                             <a href="">Jumpsuits</a> 
+                        </li>
+                        <li class="no-dots">
+                             <a href="">Suits and Blazers</a>
+                        </li>
+                       <li class="no-dots">
+                           <a href="">Skirts</a>
+                        </li>
+                        <li class="no-dots">
+                             <a href="">Nightwear</a>
+                        </li>
+                    </ul>
+                </div>
+                <p>
+                    <a href="" style="display: block;" role="button" aria-expanded="false">
+                        FILTER
+                    </a>
+                </p>
+                <div>
+                    <ul>
+                        <li class="no-dots">
+                            <a href="" data-toggle="collapse" href="#collapseExample" style="display: block;" role="button"
+                        aria-expanded="false" aria-controls="collapseExample">Top Selling Items</a>
+                        </li>
+                    </ul>
+                </div>
+                
+                <p>
+                    <a href="" style="display: block;" role="button" aria-expanded="false">
+                        PRICE
+                    </a>
+                </p>
+                    <div class="slidecontainer">
+                        <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+                    </div>
+                    <div class="d-flex justify-content-between">
+                        <p>4k</p>
+                        <p>20k</p>
+                    </div>
+                     
+                <div class="collapse show" id="collapseExample4">
+                    <div class="row mt-5">
+                        <div class="col size">
+                            <h5>SIZE</h5>
+                            <a href="" class="size-active">ALL</a>
+                            <a href="">S</a>
+                            <a href="" class="size-active">M</a>
+                            <a href="">L</a>
+                            <a href="">XL</a>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-9">
+                <div class="row product">
+                    <div class="col-md-4">
+                        <div class="item"
+                            style="background-image: url('assets/images/items/ankara_styles.jpg'); background-size: cover; background-repeat: no-repeat;">
+                            <button class="btn btn-dark">BUY NOW</button>
+                        </div>
+                        <p class="centralize"> <a href="" class="mx-auto">Striped Penz Trousers</a></p><br>
+                        <p style="margin: auto;" class="text-center">N9,999</p>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="item"
+                            style="background-image: url('assets/images/items/bbella_naija.jpg'); background-size: cover; background-repeat: no-repeat;">
+                            <button class="btn btn-dark">BUY NOW</button>
+                        </div>
+                        <p class="centralize"> <a href="">Red Distressed Denim Jeans</a></p> <br>
+                        <p style="margin: auto;" class="text-center">N9,999</p>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="item"
+                            style="background-image: url('assets/images/items/bold.jpg'); background-size: cover; background-repeat: no-repeat;">
+                            <button class="btn btn-dark">BUY NOW</button>
+                        </div>
+                       <p class="centralize"> <a href="">Red Distressed Denim Jeans</a> </p> <br>
+                        <p style="margin: auto;" class="text-center">N9,999</p>
+                    </div>
+                </div>
+                <div class="row product mt-5">
+                    <div class="col-md-4">
+                        <div class="item"
+                            style="background-image: url('assets/images/items/ankara_styles.jpg'); background-size: cover; background-repeat: no-repeat;">
+                            <button class="btn btn-dark">BUY NOW</button>
+                        </div>
+                        <p class="centralize"> <a href="">Striped Penz Trousers</a> </p><br>
+                        <p style="margin: auto;" class="text-center">N9,999</p>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="item"
+                            style="background-image: url('assets/images/items/madivas.jpg'); background-size: cover; background-repeat: no-repeat;">
+                            <button class="btn btn-dark">BUY NOW</button>
+                        </div> <p class="centralize">
+                        <a href="">Red Distressed Denim Jeans</a>
+                     </p>
+                    <p style="margin: auto;" class="text-center">N7,999</p>
+                     
+                    </div>
+                    <div class="col-md-4">
+                        <div class="item"
+                            style="background-image: url('assets/images/items/madivas_4.jpg'); background-size: cover; background-repeat: no-repeat;">
+                            <button class="btn btn-dark">BUY NOW</button>
+                        </div>
+                       <p class="centralize"> <a href="">Red Distressed Denim Jeans</a> </p> <br>
+                        <p style="margin: auto;" class="text-center">N9,999</p>
+                    </div>
+                </div>
+                <div class="row product mt-5">
+                    <div class="col-md-4">
+                        <div class="item"
+                            style="background-image: url('assets/images/items/ankara_styles.jpg'); background-size: cover; background-repeat: no-repeat;">
+                            <button class="btn btn-dark">BUY NOW</button>
+                        </div>
+                        <p class="centralize">
+                        <a href="" class="text-center">Striped Penz Trousers</a> </p> <br>
+                        <p style="margin: auto;" class="text-center">N9,999</p>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="item"
+                            style="background-image: url('assets/images/items/madivas.jpg'); background-size: cover; background-repeat: no-repeat;">
+                            <button class="btn btn-dark">BUY NOW</button>
+                        </div>
+                        <p class="centralize">                        <a href="" class="text-center">Red Distressed Denim Jeans</a> </p>
+                        <p style="margin: auto;" class="text-center">N9,999</p>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="item"
+                            style="background-image: url('assets/images/items/madivas_4.jpg'); background-size: cover; background-repeat: no-repeat;">
+                            <button class="btn btn-dark">BUY NOW</button>
+                        </div>
+                        <p class="centralize">
+                        <a href="">Red Distressed Denim Jeans</a></p> <br>
+                        <p style="margin: auto;" class="text-center">N9,999</p>
+                    </div>
+                </div>
+                <div class="row product mt-5">
+                    <div class="col-md-4">
+                        <div class="item"
+                            style="background-image: url('assets/images/items/ankara_styles.jpg'); background-size: cover; background-repeat: no-repeat;">
+                            <button class="btn btn-dark">BUY NOW</button>
+                        </div>
+                        <p class="centralize">
+                        <a href="" class="text-center">Striped Penz Trousers</a> </p> <br>
+                        <p style="margin: auto;" class="text-center">N9,999</p>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="item"
+                            style="background-image: url('assets/images/items/madivas.jpg'); background-size: cover; background-repeat: no-repeat;">
+                            <button class="btn btn-dark">BUY NOW</button>
+                        </div>
+                        <p class="centralize">
+                        <a href="">Red Distressed Denim Jeans</a> </p> <br>
+                        <p style="margin: auto;" class="text-center">N9,999</p>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="item"
+                            style="background-image: url('assets/images/items/madivas_4.jpg'); background-size: cover; background-repeat: no-repeat;">
+                            <button class="btn btn-dark">BUY NOW</button>
+                        </div> <p class="centralize">
+                        <a href="">Red Distressed Denim Jeans</a> </p> <br>
+                        <p style="margin: auto;" class="text-center">N9,999</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-9">
+                <div class="d-flex justify-content-center">
+                    <p class="ash">Showing <b><a href="#" class="dark">12</a></b> Out of
+                        <b><a href="#" class="dark">158</a></b> Results </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="no-padding pink_fill container-fluid">
+        <div class="row">
+             <div class="col-md-3"></div>
+                <div class="no-padding product col-md-9">
+                    <div class="d-flex justify-content-between">
+                        <a href="#" class="pr-3"><span class="back_arrow"></span> &nbsp; &nbsp;  PREV PAGE</a>
+                        
+                            <a href="#" class="pr-4">NEXT PAGE <span class="arrow"></span> </a>
+                        
+                    </div>
+                </div>
+
+        </div>
+    </div>
+        <section class="about-section">
+        
+            <div class="container">
+                <h3>Welcome to Janelle Clothings</h3>
+                <p>Sometimes, We need something, but we have to find them first before we choose them. We know this. Any good
+                    designer knows that making users go through extra steps to get to their end goal is a big no-no.</p>
+                <button class="btn btn-outline-dark">KNOW ABOUT US</button>
+            </div>
+        
+        </section>
+    
+    <hr style="margin: 0;">
+    <footer>
+    
+        <div class="container" style="margin-bottom: 50px;">
+            <div class="row">
+                <div class="col-sm">
+                    <h6>Menu</h6>
+                    <ul>
+                        <li><a href="">Shop</a></li>
+                        <li><a href="">Clothing</a></li>
+                        <li><a href="">Accessories</a></li>
+                        <li><a href="">Kids Special</a></li>
+                        <li><a href="">Lookbook</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm">
+                    <h6>ACCOUNT</h6>
+                    <ul>
+                        <li><a href="">Profile</a></li>
+                        <li><a href="">My Cart</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm text-right">
+                    <h6>Payment</h6>
+                    <ul>
+                        <li><a href="">Paystack</a></li>
+                        <li><a href="">Verve</a></li>
+                        <li><a href="">Mastercard</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm text-right">
+                    <h6>Company</h6>
+                    <ul>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Contact Us</a></li>
+                        <li><a href="">Return Policy</a></li>
+                        <li><a href="">Help and FAQ</a></li>
+                    </ul>
+                </div>
+            </div>
+    
+        </div>
+        <hr>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm">
+                    <h6 style="text-transform: capitalize;">Follow us On:</h6>
+                    <a href="" target="_blank" class="mr-3">Twitter</a>
+                    <a href="" target="_blank" class="mr-3">Facebook</a>
+                    <a href="" target="_blank">Instagram</a>
+                </div>
+                <div class="col-sm text-center">
+                    <img src="assets/images/logo.svg" alt="">
+                    <p class="copyright">Copyright <?php echo date('Y'); ?> Janelle Clothing Nigeria</p>
+                </div>
+                <div class="col-sm text-right">
+                    <input class="form-control mr-sm-2 search float-right" type="text" placeholder="JOIN OUR MAILING LIST"
+                        aria-label="Search">
+                    <div class="mail-btn"></div>
+                    <div class="clearfix"></div>
+                    <p class="copyright" style="margin-top: 45px;">Developed by <a href="https://codekago.com"
+                            target="_blank">Codekago Interactive</a></p>
+                </div>
+            </div>
+        </div>
+    
+    
+    
+    </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="assets/js/bootstrap.js"></script>
+    <!-- <?php
+    if ($page == 'lookbook') {
+        echo '<script src="https://unpkg.com/masonry-layout@4.2.2/dist/masonry.pkgd.min.js"></script>';
+    }
+    ?> -->
+</body>
+</html>

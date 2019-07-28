@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="158" height="40" viewBox="0 0 158 40">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="158" height="40" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="add_to_cart" data-name="add to cart" clip-path="url(#clip-path)">
+    <g id="Rectangle_367" data-name="Rectangle 367" fill="#272623" stroke="#fff" stroke-width="1">
+      <rect width="158" height="40" rx="8" stroke="none"/>
+      <rect x="0.5" y="0.5" width="157" height="39" rx="7.5" fill="none"/>
+    </g>
+    <text id="ADD_TO_CART-2" data-name="ADD TO CART" transform="translate(79 24.454)" fill="#fff" font-size="10" font-family="KronaOne-Regular, Krona One"><tspan x="-44.067" y="0">ADD TO CART</tspan></text>
+  </g>
+</svg>

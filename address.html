@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Address</title>
+    <base href="<?php echo config::base(); ?>">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Krona+One|Prata" rel="stylesheet">
+    <link rel="shortcut icon" href="assets/images/favicon.png" />
+
+</head>
+
+<body>
+
+    <header class="container-fluid">
+        <nav class="navbar navbar-expand-md navbar-light desktop-nav">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="row" style="width: 100%;">
+                    <div class="col-sm">
+                        <form class="form-inline my-2 my-lg-0">
+                            <input class="form-control mr-sm-2 search" type="text" placeholder="Search" aria-label="Search">
+                            <span class="search-btn"></span>
+                        </form>
+                    </div>
+                    <div class="col-sm logo" style="text-align: center">
+                        <a href="/"><img src="assets/images/logo.svg" alt=""></a>
+                    </div>
+                    <div class="col-sm" style="padding-right: 0px;">
+    
+                        <ul class="navbar-nav mr-auto float-right">
+                            <li class="nav-item">
+                                <a class="nav-link primary" href="#">PROFILE</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link secondary" href="#" style="padding-right: 0px;">MY CART</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <nav class="navbar navbar-expand-lg navbar-light" style="padding-top: 15px;">
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav secondary-menu" style="margin: 0 auto;">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="shop">SHOP <div class="active-on"></div></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">CLOTHING</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">ACCESSORIES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">KIDS SPECIAL</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="lookbook">LOOKBOOK</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- Mobile screen header -->
+        <nav class="navbar mobile-header">
+            <div class="toggle-div">
+                <img src="/assets/images/e922.svg" alt="toggle">
+            </div>
+            <div class="logo-div">
+                <img src="/assets/images/logo.svg" alt="logo">
+            </div>
+            <div class="cart-div">
+                <img src="/assets/images/eb6f.jpg" alt="cart">
+            </div>
+        </nav>
+        <form class="form-inline my-2 my-lg-0 search-bar">
+            <input class="form-control mr-sm-2 search" type="text" placeholder="Search" aria-label="Search">
+            <span class="arrow-span"><img class="right-arrow" src="/assets/images/arror.svg" alt="arrow"></span>
+        </form>
+    </header>
+        <div class="shop container-fluid" style="padding-bottom: 100px;">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="home">Home</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">My Address</li>
+                </ol>
+            </nav>
+
+            <div class="row">
+                <div class="col-md-2"></div>
+                <div class="col-md-10">
+                    <h1 class="bold">My Addresses</h1>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="menu-list col-md-2 col-lg-2" style="border-right: 1px solid #E5E5E5; padding-bottom: 50px;">
+                    <p>QUICK MENU</p>
+                        <ul>
+                            <li class="no-dots">
+                                <a href="">Saved Items</a>
+                            </li>
+                            <li class="no-dots">
+                                <a href="">My Adresses</a>
+                            </li>
+                            <li class="no-dots">
+                                <a href="">My Orders</a>
+                            </li>
+                        </ul>
+                    
+                </div>
+                <div class="col-md-10 col-lg-10">
+                    <div class="bg-sub-row-2">
+                            <p class="">EDIT ADDRESS</p>
+                        </div>
+
+                    <div class="col-md-12">
+                        <form action="" >
+                            <div class="address form-row mt-3">
+                                <div class="col-12 col-md-6 mb-2">
+                                    <label for="First Name">FIRST NAME</label> <br>
+                                    <input type="text" id="NameInput1" placeholder="Enoabasi" required> 
+                                </div>
+                                <div class="col-12 col-md-6 mb-2">
+                                    <label for="Last Name">LAST NAME</label> <br>
+                                    <input type="text" id="NameInput2"  placeholder="Itam" required>
+                                </div>
+                            </div>
+                            <div class="address form-row mt-3 mb-2">
+                                <div class="col-12 col-md-6 mb-2">
+                                    <label for="First Name">MOBILE NUMBER</label> <br>
+                                    <div class="input-group mb-3">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text" id="basic-addon1">+234</span>
+                                        </div>
+                                        <input type="text" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 mt-2 mb-2">
+                                    <label for="Street Adress">Street Address</label> <br>
+                                    <input type="text" placeholder="Itam" required>
+                                </div>
+                            </div>
+                            <div class="address form-row mt-3">
+                                <div class="col-12 col-md-6 mb-2">
+                                    <label for="State">State</label> <br>
+                                    <select name="" id="StateSelect">
+                                        <option value="" disabled>None</option>
+                                        <option value="">Akwa Ibom</option>
+                                        <option value="">Abia</option>
+                                        <option value="">Abuja</option>
+                                        <option value="">Lagos</option>
+                                        <option value="">Enugu</option>
+                                    </select>
+                                </div>
+                                <div class="col-12 col-md-6 mb-2">
+                                    <label for="Last Name">City</label> <br>
+                                    <input type="text" placeholder="Itam">
+                                </div>
+                            </div>
+                            <div class="address form-row mt-3">
+                                <div class="col-12 col-md-6 mb-2">
+                                    <label for="LGA">LGA</label> <br>
+                                    <select name="" id="StateSelect">
+                                        <option value="" disabled>None</option>
+                                        <option value="">Oruk Anam</option>
+                                        <option value="">Uyo</option>
+                                        <option value="">Ukanafun</option>
+                                        <option value="">Nsit Atai</option>
+                                        <option value="">Ibesikpo</option>
+                                    </select>
+                                </div>
+                                <div class="col-12 col-md-6 mb-2">
+                                    <label for="Last Name">IMPORTANT DIRECTIONS (optional) </label> <br>
+                                    <input type="text" id="AddressInfo" placeholder="You might be missing. Just ask around for Uyo.">
+                                </div>
+                            </div>
+
+                        </form>
+                    </div>
+
+                    <div class="col-md-12 ridged-border-top mt-5">
+                        <div class="row">
+                        <div class="col-md-6"></div>
+                        <div class="col-md-6">
+                            
+                            <div class="  mt-5">
+                                <button class="btn-dark mr-5 payment-btn">SAVE ADDRESS</button>
+                                <button class="btn-trans">CANCEL</button>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+
+        <section class="about-section">
+
+            <div class="container">
+                <h3>Welcome to Janelle Clothings</h3>
+                <p>Sometimes, We need something, but we have to find them first before we choose them. We know this. Any
+                    good
+                    designer knows that making users go through extra steps to get to their end goal is a big no-no.</p>
+                <button class="btn btn-outline-dark">KNOW ABOUT US</button>
+            </div>
+
+        </section>
+
+        <hr style="margin: 0;">
+        <footer>
+
+            <div class="container" style="margin-bottom: 50px;">
+                <div class="row">
+                    <div class="col-sm">
+                        <h6>Menu</h6>
+                        <ul>
+                            <li><a href="">Shop</a></li>
+                            <li><a href="">Clothing</a></li>
+                            <li><a href="">Accessories</a></li>
+                            <li><a href="">Kids Special</a></li>
+                            <li><a href="">Lookbook</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm">
+                        <h6>ACCOUNT</h6>
+                        <ul>
+                            <li><a href="">Profile</a></li>
+                            <li><a href="">My Cart</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm text-right">
+                        <h6>Payment</h6>
+                        <ul>
+                            <li><a href="">Paystack</a></li>
+                            <li><a href="">Verve</a></li>
+                            <li><a href="">Mastercard</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm text-right">
+                        <h6>Company</h6>
+                        <ul>
+                            <li><a href="">About</a></li>
+                            <li><a href="">Contact Us</a></li>
+                            <li><a href="">Return Policy</a></li>
+                            <li><a href="">Help and FAQ</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+            <hr>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm">
+                        <h6 style="text-transform: capitalize;">Follow us On:</h6>
+                        <a href="" target="_blank" class="mr-3">Twitter</a>
+                        <a href="" target="_blank" class="mr-3">Facebook</a>
+                        <a href="" target="_blank">Instagram</a>
+                    </div>
+                    <div class="col-sm text-center">
+                        <img src="assets/images/logo.svg" alt="">
+                        <p class="copyright">Copyright <?php echo date('Y'); ?> Janelle Clothing Nigeria</p>
+                    </div>
+                    <div class="col-sm text-right">
+                        <input class="form-control mr-sm-2 search float-right" type="text"
+                            placeholder="JOIN OUR MAILING LIST" aria-label="Search">
+                        <div class="mail-btn"></div>
+                        <div class="clearfix"></div>
+                        <p class="copyright" style="margin-top: 45px;">Developed by <a href="https://codekago.com"
+                                target="_blank">Codekago Interactive</a></p>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </footer>
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
+        <script src="assets/js/bootstrap.js"></script>
+        <!-- <?php
+    if ($page == 'lookbook') {
+        echo '<script src="https://unpkg.com/masonry-layout@4.2.2/dist/masonry.pkgd.min.js"></script>';
+    }
+    ?> -->
+</body>
+
+</html>

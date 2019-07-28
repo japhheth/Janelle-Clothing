@@ -1,0 +1,466 @@
+
+/*
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+.mobile-header{
+        display: none;
+    }
+
+
+
+}
+
+/*
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1024px) and (max-width: 1339px) {
+
+ /* About */
+    .second-container{
+        width: 928px;
+    }
+    .flex-div{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-column-gap: 15px;
+        margin-top: 30px;
+    }
+     .flex-cont-1{
+        margin-top: 190px;
+    }
+    .flex-cont-3{
+        margin-top: 110px;
+    } 
+
+    .mobile-header{
+        display: none;
+    }
+
+}
+
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1023px) {
+
+   /* About */
+    .bold{
+        font-size: 40px;
+    }
+    .second-container{
+        width: 100%;
+        padding: 0 30px 150px;
+    }
+    .sub-sec-cont-1{
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        padding-top: 15px;
+    }
+    .grid-div{
+        top: -100px;
+    }
+    .background-fade{
+        bottom: 106px;
+        opacity: 1;
+    }
+    .fluid-4{
+        height: 391px;
+
+    }
+    .flex-div{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-column-gap: 15px;
+    }
+    .flex-cont-1{
+        margin-top: 51px;
+    }
+    .flex-cont-2{
+        padding: 53px 25px;
+    }
+    .flex-cont-3{
+        padding: 45px 20px;
+        margin-top: 31px;
+    }
+
+
+    /* Checkout */
+    .small-bold{
+        font-size: 22px;
+        margin-bottom: 0 !important;
+    }
+    .sub-first-row-1{
+        display: none;
+    }
+    .sub-first-row{
+        display: block !important;
+    }
+    .inner-row-1, .inner-row-2, .inner-row-4{
+        padding: 20px 8px !important;
+    }
+    .inner-row-3{
+        padding: 16px 8px !important;
+    }
+    .inner-row-5 > p{
+        font-size: 9px;
+    }
+    .bold-para{
+        font-size: 12px;
+    }
+    .payment-btn{
+        padding: 10px 28px
+    }
+    .small-bold-1{
+        font-size: 9px !important;
+    }
+
+    /* payment */
+    .full-paystack-logo{
+        display: none;
+    }
+    .half-paystack-logo{
+        display: block;
+    }
+    /* Cart */
+    .menu-list > ul > li{
+        font-size: 9px;
+    }
+    .serialN{
+        font-size: 18px;
+    }
+    .left-space{
+        margin-left: 3PX;
+    }
+    .quantity-b{
+        padding: 5px 10px;
+    }
+    .flex-data > p{
+        margin-left: 12px;
+    }
+    .delete-cart > p{
+        margin-left: 10px;
+    }
+    .item-id{
+        margin-left: 0;
+    }
+
+    /* For signup */
+
+    .fa-eye-slash{
+    position: relative;
+    bottom: 28px;
+    left: 240px;
+    font-weight: 700;
+    color: #B8B8B7;
+}
+
+/* for lookbok */
+    .content-left-space{
+        padding: 0 0 0 50px !important;
+    }
+    .peach-bg{
+        padding: 20px 0 0 50px !important;
+    }
+    .instagram-link{
+        font-size: 18px;
+    }
+    .instagram-logo{
+        margin-top: 0;
+    }
+
+/* orders */
+
+  /* Orders */
+
+  ul > li{
+    font-size: 10px;
+}
+.order-summary{
+    font-size: 10px !important;
+}
+.order-details > ul{
+    margin-top: 47px;
+}
+
+}
+
+/*
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+
+
+}
+
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+
+
+@media (min-width: 320px) and (max-width: 767px) {
+
+    /* About */
+    .desktop-nav{
+        display: none;
+    }
+    .mobile-header{
+        display: flex;
+        justify-content: space-between;
+
+    }
+    .search{
+        width: 100% !important;
+    }
+    .search-bar{
+        display: block;
+    }
+    .arrow-span{
+        position: relative;
+        top: -24px;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .grid-div-1 > h4{
+        position: static;
+    }
+    .bold{
+        font-size: 32px;
+    }
+    .second-container{
+        width: 100%;
+        padding: 0 15px 150px;
+    }
+    .sub-sec-cont-1{
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        padding-top: 15px;
+    }
+    .brand-name-svg{
+        top: -77px;
+    }
+    .fluid-3{
+        height: auto;
+    }
+    .fluid-3 > h3{
+        margin-left: 0;
+        text-align: center;
+    }
+    .flex-div{
+        display: flex;
+        flex-direction: column;
+    }
+    .flex-cont-1{
+        padding: 50px 10px;
+        margin-top: 20px;
+    }
+    .flex-cont-2{
+        padding: 41px 23px;
+    }
+    .flex-cont-3{
+        margin-top: 20px;
+
+    }
+    .list-items > ul{
+        display: flex;
+        flex-direction: column;
+    }
+    .list-items > ul > li{
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    .grid-div{
+        top: 0;
+    }
+    .grid-div > div{
+        margin-bottom: 20px;
+        padding: 0 !important;
+    }
+    .img-2{
+        margin-top: 33px;
+    }
+    .img-3{
+        position: relative;
+        top: -100px;
+    }
+    .background-fade{
+        bottom: 33%;
+        opacity: 1;
+    }
+    .fluid-5{
+        padding-top: 20px;
+    }
+    .sub-fluid-5{
+        position: relative;
+        bottom: 0;
+        right: 0;
+    }
+    .locate-us{
+        margin-right: 0;
+    }
+    /* Checkout */
+   
+    .container-fluid{
+        padding-right: 16px !important;
+        padding-left: 16px !important;
+    }
+
+    .small-bold{
+        font-size: 20px !important;
+        margin-top: 10px;
+    }
+
+    .sub-first-row-1{
+        display: none;
+    }
+    .first-sub-row-3{
+        margin-bottom: 30px;
+    }
+    .sub-row-3 > div, .sub-row-4 > div{
+        padding: 20px 16px !important;
+    }
+    .sub-first-row-2{
+        margin-top: 15px;
+    }
+    .bg-sub-row-2 > p{
+        padding: 7px 6px;
+    }
+    .payment-btn{
+        width: 100%;
+    }
+
+    .btn-trans{
+        width: 100%; 
+        margin-top: 15px;
+    }
+
+    .row-3, .sub-row-5{
+        padding: 0 !important;
+    }
+
+
+    /* Payment */
+    .half-paystack-logo{
+        display: block;
+    }
+    .full-paystack-logo{
+        display: none;
+    }
+    .new-row-flex > p{
+        font-size: 9px !important;
+    }
+    
+    /* Card-payment */
+    /* .black-thick{
+
+    } */
+
+    /* Cart */
+
+    .bg-screen-cart{
+        display: none;
+    }
+    .sm-screen-cart{
+        display: block;
+        border-top: 1px solid #E5E5E5;
+        border-bottom: 1px solid #E5E5E5;
+        padding-top: 15px;
+    }
+    .flex-tag-1{
+        position: absolute;
+        bottom: -16px;
+        display: flex;
+        justify-content: space-between; 
+    }
+    .flex-tag{
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .quantity-b{
+        padding: 5px 19px;
+    }
+    .font-price{
+        font-size: 14px;
+    }
+
+    .desktop_jewel{
+        display: none;
+    }
+
+    .babypink-bg{
+        display: none;
+    }
+
+    /* For signup */
+
+    .fa-eye-slash{
+    position: relative;
+    bottom: 28px;
+    left: 199px;
+    font-weight: 700;
+    color: #B8B8B7;
+}
+
+/* lookbook */
+
+.peach-bg{
+    padding: 20px 15px !important;
+}
+.div-top-space{
+    margin-top: 15px;
+}
+.wrist-watch-top-space{
+    margin-top: 0;
+}
+.hide-col{
+    display: none;
+}
+.content-top-space{
+    margin-top: 0 !important;
+}
+
+   /* Order */
+.hide-col{
+display: none;
+}
+.order-summary{
+    padding-inline-start: 0 !important;
+}
+.para-bottom{
+    margin-bottom: 0 !important;
+    font-size: 19px;
+}
+.top-space{
+    margin-top: 20px;
+}
+.menu-list{
+    display: none;
+}
+.cart-head{
+    display: none;
+}
+.serialN{
+    display: none;
+}
+
+
+/*
+  ##Device = Most of the Smartphones Mobiles & Phablets (Portrait)
+  ##Screen = B/w 320px to 767px
+*/
+
+}
